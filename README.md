@@ -4,6 +4,8 @@ Trying to predict emoji's based on a sentence, the unsupervised way.
 
 ## CLIP
 
+> Note: I used a Sagemaker Notebook. On Sagemaker Studio the clip client could not find the clip server. No idea what was going wrong.
+
 Clip was really easy to work with thanks to jina.ai's clip as a service: https://github.com/jina-ai/clip-as-service 
 
 1) You download the CLIP model
