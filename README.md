@@ -14,3 +14,28 @@ Clip was really easy to work with thanks to jina.ai's clip as a service: https:/
 
 The results are not bad because we did not fine tune with any training data.
 ![image description](assets/clip.png)
+
+
+## Procedure
+
+###  Pretrained
+
+- get dataset from either;
+    - huggingface: https://huggingface.co/datasets/AlekseyDorkin/extended_tweet_emojis/tree/main
+    - github: https://github.com/Defcon27/Emoji-Prediction-using-Deep-Learning
+
+- add the emoji's from this dataset and embed in CLIP
+- can we compare the embedding of the image in CLIP to the values have here: https://github.com/abushoeb/EmoTag/blob/master/data/EmoTag1200-scores.csv ?
+- run the test dataset against CLIP, what performance do we get? look also for precision
+
+###  Finetune
+
+- example:
+    - https://www.kaggle.com/code/shahnaivedh/emoji
+    - https://www.kaggle.com/code/satwiksrivastava/emoji-prediction/data
+    - https://github.com/Defcon27/Emoji-Prediction-using-Deep-Learning
+
+-  article: 
+    - https://huggingface.co/blog/fine-tune-clip-rsicd
+    - https://discuss.huggingface.co/t/clipmodel-finetuning/13388/8
+    - https://huggingface.co/blog/fine-tune-clip-rsicd
