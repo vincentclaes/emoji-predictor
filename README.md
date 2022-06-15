@@ -30,6 +30,8 @@ The results are not bad because we did not fine tune with any training data.
 
 ###  Finetune
 
+> Ongoing ...
+
 - example:
     - https://www.kaggle.com/code/shahnaivedh/emoji
     - https://www.kaggle.com/code/satwiksrivastava/emoji-prediction/data
