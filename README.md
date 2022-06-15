@@ -4,7 +4,7 @@ The idea is that we would like to predict emoji's based on a sentence.
 
 The [__CLIP model (Contrastive Language-Image Pretraining)__](https://github.com/openai/CLIP) is a good candidate.
 
-CLIP is model of OpenAI trained on 400 M image and text pairs. 
+CLIP is a model of OpenAI trained on 400 M image and text pairs. 
 
 So  what can it do?
 
