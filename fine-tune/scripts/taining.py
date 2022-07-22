@@ -7,7 +7,8 @@ from torchvision.io import read_image, ImageReadMode
 
 # Loading Data
 dataset = load_dataset("AlekseyDorkin/extended_tweet_emojis")
-train_dataset = dataset["validation"].train_test_split(test_size=0.1)["test"]
+train_dataset = dataset["train"]
+eval_dataset = dataset["validation"]
 column_names = train_dataset.column_names
 assert "label" in column_names
 assert "text" in column_names
@@ -102,8 +103,11 @@ trainer = Trainer(
 
                            ),
     train_dataset=train_dataset,
-    eval_dataset=train_dataset,
+    eval_dataset=eval_dataset,
     data_collator=collate_fn
 )
 
 trainer.train()
+metrics = trainer.evaluate()
+trainer.log_metrics("eval", metrics)
+trainer.save_metrics("eval", metrics)
