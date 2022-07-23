@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 .idea/
 data/
-wandb/
-checkpoints/
+fine-tune/wandb/
+fine-tune/checkpoints/
 
