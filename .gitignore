@@ -134,4 +134,5 @@ fine-tune/checkpoints/
 fine-tune/hf-repo/
 fine-tune/dataset
 fine-tune/contrastive-image-text/
+fine-tune/checkpoints*
 
