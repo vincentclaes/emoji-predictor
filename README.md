@@ -19,4 +19,6 @@ Go to [zero-shot](./zero-shot) to learn more.
 
 ## Fine Tune
 
-> Ongoing work in [fine-tune](./fine-tune)
+Fine tuning CLIP on a few samples, but also on bigger data.
+
+Go to [fine-tune](./fine-tune) to learn more.
